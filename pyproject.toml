@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-to-manim-video"
+version = "0.1.0"
+description = "AI Agent Skill to automatically transform research papers (PDF/URL) into 3b1b-style animated Manim explainer videos."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Praful Sapkota" }
+]
+dependencies = [
+    "manimgl>=1.6.1",
+    "pypdf>=4.0.0",
+    "pdfplumber>=0.10.0",
+    "setuptools<71",
+]
+
+[project.urls]
+Homepage = "https://github.com/prafulsapkota/paper-to-manim-video"
+Repository = "https://github.com/prafulsapkota/paper-to-manim-video"
