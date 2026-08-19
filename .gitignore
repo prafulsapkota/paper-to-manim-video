@@ -1,0 +1,55 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Video outputs and rendering artifacts
+videos/
+output/
+*.mp4
+*.png
+*.gif
+custom_config.yml
+
+# PDFs and temp data files
+*.pdf
+/tmp/
+paper_scenes.json
+paper_scenes_cleaned.txt
+manim_preflight_report.json
+
+# Environment variables
+.env
+.env.*
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
